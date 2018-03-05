@@ -1,0 +1,42 @@
+{
+  "name": "cashflower-api",
+  "author": "Nícolas Nunes <nicolas.cnunes@gmail.com>",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon ./app/bin",
+    "start": "node ./app/bin",
+    "lint": "eslint app",
+    "test": "cross-env NODE_ENV=test mocha ./app/**/*.test.js --reporter spec"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "express-paginate": "^0.3.0",
+    "moment": "^2.21.0",
+    "mongoose": "^5.0.8",
+    "morgan": "^1.9.0",
+    "statuses": "^1.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "cross-env": "^5.1.1",
+    "eslint": "^4.8.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^4.0.1",
+    "node-mocks-http": "^1.6.6",
+    "nodemon": "^1.12.1",
+    "proxyquire": "^1.8.0",
+    "sinon": "^4.3.0",
+    "supertest": "^3.0.0"
+  },
+  "engines": {
+    "node": "6.11.x"
+  }
+}
