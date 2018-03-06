@@ -6,10 +6,19 @@ A simple Node.js API to manage transactions.
 To run this API you will need:
 
 - Node.js v6.11.x+
+- MongoDB v3.6+
 
 ### Installing
 
 Run `npm install` to install dependencies
+
+### Start the database server
+
+On the MongoDB /bin folder
+
+```
+mongod --dbpath ../data
+```
 
 ### Start the server
 
