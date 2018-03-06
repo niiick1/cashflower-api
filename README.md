@@ -46,6 +46,15 @@ Retrieve transactions.
 You can use the *Link* header for pagination reference (first, previous, next and/or last pages).
 
 #### Optional query string parameters
+- paymentType: (money|credit)
+Filter by payment type.
+
+- startDate: Number
+Get transactions that were created after *startDate*. Parameter must be a date in milliseconds.
+
+- endDate: Number
+Get transactions that were created before *endDate*. Parameter must be a date in milliseconds.
+
 - page: Number
 Page of transactions to retrieve.
 
