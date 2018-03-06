@@ -47,21 +47,27 @@ You can use the *Link* header for pagination reference (first, previous, next an
 
 #### Optional query string parameters
 - paymentType: (money|credit)
+
 Filter by payment type.
 
 - startDate: Number
+
 Get transactions that were created after *startDate*. Parameter must be a date in milliseconds.
 
 - endDate: Number
+
 Get transactions that were created before *endDate*. Parameter must be a date in milliseconds.
 
 - page: Number
+
 Page of transactions to retrieve.
 
 - limit: Number
+
 Number of transactions per page.
 
 - sort: String
+
 Pass the name of the fields you want to sort. Use a '-' to sort on descending order. 
 
 E.g.: -amount,description will sort by amount on descending and description on ascending order.
